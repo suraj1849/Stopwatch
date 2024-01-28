@@ -4,7 +4,12 @@
 1. Element separation for improved DOM manipulation. 🧩
 
 ## CSS:
-
+1. Utilizing `box-sizing` to include padding, margin, and border in height and width calculations. 📏
+2. Using `overflow: hidden` to prevent scrolling and `overflow` to clip container content. 🚫
+3. Responsive design with `em`, `rem`, `vh`, `vw` units. 📱
+4. `flex-wrap` for responsive layout, `flex-column` for vertical alignment. 🌐
+5. Media queries for max-width responsiveness. 🖥️
+6. Animations for dynamic content transitions. 🔄
 7. **Additional Details:**
    - `box-sizing: border-box;` ensures that padding and border are included in the element's total width and height. 📦
    - `overflow: hidden;` disables scrolling, and strategic use of `overflow` is employed to clip content. 🔒
