@@ -53,15 +53,7 @@ function pauseStopwatch() {
 }
 
 // Function to resume the stopwatch
-function resumeStopwatch() {
-    if (!isRunning) {
-        isRunning = true;
-        startTime = Date.now() - (pausedTime || 0); // Use pausedTime if it's not zero
-        pausedTime = 0; // Reset paused time
-        startButton.textContent = 'Pause';
-        updateStopwatch();
-    }
-}
+
 
 
 // Function to update the stopwatch display
